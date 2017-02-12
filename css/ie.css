@@ -1,0 +1,394 @@
+@font-face {
+	font-family: LeagueGothic;
+	src: url('../fonts/league-gothic.regular.eot');
+}
+
+@font-face {
+	font-family: OpenSansLight;
+	src: url('../fonts/opensans-light.eot');
+}
+
+@font-face {
+	font-family: OpenSans-ExtraBold;
+	src: url('../fonts/opensans-extrabold.eot');
+}
+
+@font-face {
+	font-family: OpenSans;
+	src: url('../fonts/opensans.eot');
+}
+
+.header {
+	background: url(../img/background.png) 50% 0 no-repeat;
+	border-bottom: 1px solid #33253a;
+}
+
+.header__opacity {
+	margin-top: 287px;
+	height: 400px;
+}
+
+.primary__navigation {
+	text-align: left;
+	display: inline-block;
+}
+
+.navigation__logo {
+	display: inline;
+}
+
+.menu__list {
+	width: 900px;
+	margin: -70px 0 0 15%;
+}
+
+.menu__item {
+	display: inline;
+	margin: 0 0 0 5%;
+}
+
+.wrapper__arrow {
+	max-width: 1600px;
+}
+
+.lorem__arrow {
+	margin: 290px 0 0 10%;
+}
+
+.lorem__right-arrow {
+	margin-right: 10%;
+}
+
+.slider__container {
+	padding-top: 215px;
+	padding-bottom: 278px;
+	padding-left: 0;
+	text-align: left;
+}
+
+.lorem__text {
+	width: 500px;	
+}
+
+.lorem__white {
+	line-height: 60px;
+	font-size: 60px;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Color=#666666, Direction=135, Strength=3);
+}
+
+.lorem__pink {
+	margin-top: 0;
+	font-size: 32px;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Color=#666666, Direction=135, Strength=3);
+}
+
+.lorem__description {
+	display: none;
+}
+
+.lorem__description960 {
+	margin-top: 10px;
+	color: white;
+	font-family: OpenSansLight;
+	font-size: 18px;
+	line-height: 23px;
+}
+
+
+.lorem__phone {
+	display: inline-block;
+	
+}
+
+.phone__picture-ie {
+	position: absolute;
+    width: 300px;
+    height: 440px;
+    margin: -340px 3% 0 9%;
+
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/phones.png', sizingMethod='scale');
+    -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/phones.png', sizingMethod='scale')";
+}
+
+.container1__form {
+	display: none;
+	margin: 190px 0 0 690px;
+}
+
+.form__slider-nav input {
+	top: -800px;
+}
+
+.form__slider-nav label {
+	background-color: black;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+}
+
+.about__block {
+	display: inline-block;
+	width: 24%;
+	margin: 20px 0 0 3px;
+	padding: 0 48px 5px 61px;
+}
+
+.about__icon2 {
+	background-position: -102px -15px;
+}
+
+.about__icon3 {
+	background-position: -151px -16px;
+	margin-top: 0px;
+}
+
+.about__h2 {
+	font-size: 30px;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Color=#0f1518, Direction=135, Strength=3);
+}
+
+.about__p {
+	height: 120px;
+	margin-top: 12px;
+}
+
+.about__more {
+	margin: 19px 12px 0 0;
+	font-size: 18px;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Color=#0f1518, Direction=135, Strength=3);
+}
+
+.about__block2 {
+	padding-right: 0;
+}
+
+.about__block3 {
+	 padding-top: 0px;
+	 margin-left: 2%;
+	 padding-right: 0;
+}
+
+.content__testimonial {
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.testimonial__wrapper {
+	padding: 98px 0 88px 0;
+}
+
+.testimonial__block {
+	display: inline-block;
+	width: 46%;
+	background: url(../img/quote.png) no-repeat;
+}
+
+.testimonial__box {
+	display: inline-block;
+	border: none;
+	margin-bottom: 0;
+	padding: 12px 0 24px 0;
+}
+
+.testimonial__text {
+	height: auto;
+	padding: 5px 40px 15px 36px;
+}
+
+.testimonial__picture {
+	margin: -6px 0 0 -29px;
+}
+
+.testimonial__title {
+	font-size: 30px;
+}
+
+.title__span {
+	display: inline-block;
+	margin-left: -2px;
+}
+
+.form__slider-nav-white {
+	display: none;
+}
+
+.updates__block {
+	display: inline-block;
+	margin: -250px 0 0 50%;
+}
+
+.box__figcaption {
+	margin-left: 16px;
+}
+
+.box__title {
+	width: 100%;
+}
+
+.box__text {
+	width: 100%;
+}
+
+.updates__box:nth-child(2) {
+	margin-top: 0px;
+}
+
+.updates__box:last-child {
+    margin-top: -3px;
+}
+
+.updates__more {
+	display: none;
+}
+
+.updates__more960 {
+    display: block;
+    margin: 20px 0 0 80%;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-shadow: 0.5px 0.9px 0 white;
+    color: #454545;
+    font-family: LeagueGothic;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+}
+
+.content__partners {
+	border-bottom: 1px solid #D8D8D8;
+}
+
+.partners__block {
+    padding: 25px 0 34px 0%;
+}
+
+.partners__link:first-child {
+    margin: 0 6% 0 9%;
+}
+
+.partner1 {
+	width: 69px;
+}
+
+.partner1:hover{
+	background-position: 0 -66px;
+}
+
+.partner2 {
+	width: 72px;
+	margin: 0 0 0 0%;
+	background-position: -134px 0;
+}
+
+.partner2:hover {
+	background-position: -134px -66px;
+}
+
+.partner3 {
+	width: 65px;
+	margin: 0 6% 0 6%;
+	background-position: -270px 0;
+}
+
+.partner3:hover{
+	background-position: -270px -66px;
+}
+
+.partner4 {
+	width: 50px;
+	margin: 0 15% 0 0;
+	background-position: -410px 0;
+}
+
+.partner4:hover{
+	background-position: -410px -66px;
+}
+
+.partner5 {
+	width: 103px;
+	margin: 20px 0% 0 -6%;
+	position: absolute;
+	background-position: -528px -22px;	
+}
+
+.partner5:hover{
+	background-position: -528px -88px;
+}
+
+.partner6 {
+	width: 78px;
+	height: 61px;
+	margin: 0px 0 0 7%;
+	background-position: -697px -2px;
+}
+
+.partner6:hover{
+	background-position: -697px -68px;
+}
+
+.categories__title {
+	display: none;
+}
+
+.content__news {
+    padding: 103px 0% 120px 0;
+}
+
+.news__categories {
+    width: 30%;
+    display: inline-block;
+}
+
+.news__block1 {
+	position: absolute;
+	width: 20%;	
+}
+
+.news__block2 {
+    margin: 0 3% 0 35%;
+}
+
+.categories__title960 {
+    font-size: 30px;
+} 
+
+.categories1__title960 {
+    font-size: 48px;
+	letter-spacing: -0.4px;
+}
+
+.categories__text {
+    height: 170px;
+}
+
+.categories__text1 {
+    height: 122px;
+}
+
+.title960__span {
+	text-transform: uppercase;
+	text-shadow: 0 1px 0 white;
+	color: #b9b9b9;
+	font-family: LeagueGothic;
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 34px;
+}
+
+.categories__copyright {
+	margin-top: 10px;
+	filter: progid:DXImageTransform.Microsoft.Shadow(Color=#FFFFFF, Direction=135, Strength=3);
+	color: #676262;
+	font-family: Georgia;
+	font-size: 16px;
+	font-style: italic;
+	line-height: 24px;
+}
+
+.footer {
+	height: 115px;
+	background-image: url(../img/footer.png);
+}
+
+.footer__text {
+    float: right;
+    margin: -19px 0 0 0;
+    padding: 0 0 0 0; 
+}
